@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+ <div class="forms">
+
+         <div class="tittle-div">
+            <h1> Blood Donation for Thalassemia Patients</h1>
+            <p>We have collaborated with "Aarohi Blood Bank" in Hyderabad to support Thalassemia Patients for blood transfusion. This form is to reach out for blood donations.</p>
+            <p class="required">*Indicates required question</p>
+           </div>
+
+        <div class="Email-div">
+            <div class="Email">Email <span class="required">*</span></div>
+            <div class="input-div"><input types="input" Email="answer" placeholder="your email"></div>
+        </div>
+
+
+        <div class="Name-div">
+            <div class="Email">Name: <span class="required">*</span></div>
+            <div class="input-div"><input types="input" Email="answer" placeholder="your answer"></div>
+        </div>
+
+
+        <div class="blood-group-div">
+         <form>
+                       <label for="bloodGroup"> Blood Group:</label><span class="required">*</span>
+                       <input list="bloodGroups" id="bloodGroup" name="bloodGroup" required>
+                <datalist id="bloodGroups">
+                   <option value="A+">
+                   <option value="A-">
+                   <option value="B+">
+                    <option value="B-">
+                    <option value="AB+">
+                    <option value="AB-">
+                   <option value="O+">
+                    <option value="O-">
+                </datalist>
+                <button type="submit">Choose</button>
+           </form>
+        </div>
+
+        <div class="Number-div">
+            <div class="number">Mobile: <span class="required">*</span></div>
+            <div class="input-div"><input types="input" Email="answer" placeholder="your answer"></div>
+        </div>
+
+
+
+
+
+
+
+       <div class="timePeriod-div">
+                <form>
+                     <label for="timePeriod">When was the last time you have donated blood?
+                       </label><span class="required">*</span>
+                       <input list="timePeriods" id="timePeriod" name="timePeriod" required>
+                   <datalist id="timePeriods">
+                           <option value="Less than 1 month ago">
+                         <option value="Less than 2 months ago">
+                         <option value="Less than 3 months ago">
+                         <option value="More than 3 months ago">
+                         <option value="Never donated">
+                    </datalist>
+                    <button type="submit">Choose</button>
+               </form>
+       </div>
+    
+
+        <div class="gender-div">
+           
+                <form>
+                    <label>Sex:<br><br> This helps us understand the diversity of donors who donate blood.</p></label>
+            
+                    <label for="female" class="radio-label">
+                        <input type="radio" id="female" name="sex" value="female">
+                        <span class="radio-button"></span>
+                        Female<br><br>
+                    </label>
+            
+                    <label for="male" class="radio-label">
+                        <input type="radio" id="male" name="sex" value="male">
+                        <span class="radio-button"></span>
+                        Male<br><br>
+                    </label>
+                    <label for="preferNotToSay" class="radio-label">
+                        <input type="radio" id="preferNotToSay" name="sex" value="preferNotToSay">
+                        <span class="radio-button"></span>
+                        Prefer not to say<br><br>
+                    </label>
+                    <label for="other" class="radio-label">
+                           <input type="radio" id="other" name="sex" value="other">
+                           <span class="radio-button"></span>
+                             Other
+                     </label>
+                    <input type="text" id="otherText" class="custom-text-input" placeholder="Please specify" name="otherText"><br>   
+                </form><br>
+            
+                
+        </div>
+
+           <div class="birth-div">
+            <p>Date of Birth:<br><br>
+                We collect this to be there on the special days and to understand the age group of donors who are signing up to donate. This is optional, if you wish not to share. </p>
+                <form>
+                   <label for="dob">Date of Birth:</label>
+                   <input type="date" id="dob" name="dob">
+              
+                 
+              </form>
+           </div>
+
+
+
+             <div class="donate-div">
+                <form>
+                    <label>When do you prefer donating?</label><span class="required">*</span><br><br>
+            
+                    <label for="flexible" class="radio-label">
+                        <input type="radio" id="flexible" name="donationPreference" value="flexible">
+                        <span class="radio-button"></span>
+                        Flexible (Any day during the week)<br><br>
+                    </label>
+            
+                    <label for="weekends" class="radio-label">
+                        <input type="radio" id="weekends" name="donationPreference" value="weekends">
+                        <span class="radio-button"></span>
+                        Only Weekends<br><br>
+                    </label>
+            
+                    <label for="weekdays" class="radio-label">
+                        <input type="radio" id="weekdays" name="donationPreference" value="weekdays">
+                        <span class="radio-button"></span>
+                        Only Weekdays<br><br>
+                    </label>
+
+                </form>
+           </div>
+
+            <div class="know-div">
+
+                <form>
+                    <label>How did you hear about us?<span class="required">*</span><br><br>
+                        If it is a friend or family member, please do share his/her name in "Other". We would love you know about our blood warriors.</label><br><br>
+            
+                    <label for="kmit" class="radio-label">
+                        <input type="radio" id="kmit" name="source" value="kmit">
+                        <span class="radio-button"></span>
+                        KMIT<br><br>
+                    </label>
+            
+                    <label for="directCall" class="radio-label">
+                        <input type="radio" id="directCall" name="source" value="directCall">
+                        <span class="radio-button"></span>
+                        Direct Call<br><br>
+                    </label>
+            
+                    <label for="instagram" class="radio-label">
+                        <input type="radio" id="instagram" name="source" value="instagram">
+                        <span class="radio-button"></span>
+                        Instagram<br><br>
+                    </label>
+            
+                    <label for="linkedin" class="radio-label">
+                        <input type="radio" id="linkedin" name="source" value="linkedin">
+                        <span class="radio-button"></span>
+                        LinkedIn<br><br>
+                    </label>
+            
+                    <label for="whatsapp" class="radio-label">
+                        <input type="radio" id="whatsapp" name="source" value="whatsapp">
+                        <span class="radio-button"></span>
+                        WhatsApp<br><br>
+                    </label>
+            
+                    <label for="mad" class="radio-label">
+                        <input type="radio" id="mad" name="source" value="mad">
+                        <span class="radio-button"></span>
+                        Make a Difference [MAD]<br><br>
+                    </label>
+            
+                    <label for="aasyaFoundation" class="radio-label">
+                        <input type="radio" id="aasyaFoundation" name="source" value="aasyaFoundation">
+                        <span class="radio-button"></span>
+                        Aasya Foundation<br><br>
+                    </label>
+            
+                    <label for="pbelCity" class="radio-label">
+                        <input type="radio" id="pbelCity" name="source" value="pbelCity">
+                        <span class="radio-button"></span>
+                        PBEL City<br><br>
+                    </label>
+            
+                    <label for="robinHoodArmy" class="radio-label">
+                        <input type="radio" id="robinHoodArmy" name="source" value="robinHoodArmy">
+                        <span class="radio-button"></span>
+                        Robin Hood Army<br><br>
+                    </label>
+            
+                    <label for="rotaractClub" class="radio-label">
+                        <input type="radio" id="rotaractClub" name="source" value="rotaractClub">
+                        <span class="radio-button"></span>
+                        Rotaract Club<br><br>
+                    </label>
+            
+                    <label for="other" class="radio-label">
+                        <input type="radio" id="other" name="source" value="other">
+                        <span class="radio-button"></span>
+                        Other
+                    </label>
+            
+                    <input type="text" id="otherText" class="custom-text-input" placeholder="Please specify" name="otherText">
+            
+                   
+                </form>
+            
+                <script>
+                    document.querySelectorAll('input[type="radio"]').forEach(function(radio) {
+                        radio.addEventListener('change', function() {
+                            var otherText = document.getElementById('otherText');
+                            otherText.style.display = (document.querySelector('input[name="source"]:checked').value === 'other') ? 'inline-block' : 'none';
+                        });
+                    });
+                </script>
+           </div>
+
+
+            <div class="location-div">
+
+                <form>
+                    <label for="location">Location:<br><br>Below is the list of all wards from Hyderabad & Secunderabad in alphabetical order. If you <br>are not from Hyderabad, please select respective state. If your location is not part of the <br>list, please select "Other"</label><br><br>
+                    <select id="location" name="location" required>
+                        <option value="hyderabad">Hyderabad</option>
+                        <option value="secunderabad">Secunderabad</option>
+                         Add other Telangana districts -->
+                        <option value="adilabad">Adilabad</option>
+                        <option value="bhupalpally">Bhupalpally</option>
+                        <option value="jagitial">Jagitial</option>
+                        <!-- Add more Telangana districts as needed -->
+            
+                        <option value="andhraPradesh">Andhra Pradesh</option>
+                        <!-- Add Andhra Pradesh districts -->
+                        <option value="anantapur">Anantapur</option>
+                        <option value="chittoor">Chittoor</option>
+                        <option value="eastGodavari">East Godavari</option>
+                        <!-- Add more Andhra Pradesh districts as needed -->
+            
+                        <option value="other">Other</option>
+                    </select><br>
+            
+                    <input type="text" id="otherText" class="custom-text-input" placeholder="Please specify" name="otherText">
+            
+                </form>
+            
+                <script>
+                    document.getElementById('location').addEventListener('change', function() {
+                        var otherText = document.getElementById('otherText');
+                        otherText.style.display = (this.value === 'other') ? 'inline-block' : 'none';
+                    });
+                </script>
+
+            </div>
+
+            <div class="text-div">
+                <p>Thank you for being brave and being a Warrior from the Heart!
+                You are almost there. Only one step to complete the Signing Up Process</p>
+            </div>
+
+
+            <div class="btn-container">
+                <!-- Your first button with the .bbt class -->
+                <div class="bbt">Next</div>
+                
+                <!-- Your second button with the .btn-div class -->
+                <div class="btn-div">Clear form</div>
+            </div>
+
+        
+
+
+
+
+
+
+            <div class="footer h2">
+                <p class="para">Never submit passwords through Google Forms.<br><br>
+                     This content is neither created nor endorsed by Google. <a href="#">Report Abuse</a> - <a href="#">Terms of Service</a> - <a href="#">Privacy Policy</a></p>
+                <h2>Google Forms</h2>
+            </div>
+        
+            <script>
+                document.getElementById('location').addEventListener('change', function() {
+                    var otherText = document.getElementById('otherText');
+                    otherText.style.display = (this.value === 'other') ? 'inline-block' : 'none';
+                });
+            </script>
+        
+         
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+                        
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+</body>
+</html>
